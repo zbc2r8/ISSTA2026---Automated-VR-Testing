@@ -1,0 +1,3 @@
+InstrumentationEnabled,False
+Label,Count,Avg,Min,Max,StdDev
+FPS,25,22.86,13.35,27.79,4.51

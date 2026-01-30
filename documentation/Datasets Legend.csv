@@ -1,0 +1,78 @@
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Distance from camera(cm),Background,Experience,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,Spatial Difs.,Spatial Disgreement Rate,Spatial Agreement,Spatial Agreement Rate,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,Temporal Difs.,Temporal Disgreement Rate,Temporal Agreement,Temporal Agreement Rate
+1,PhantomLimb_Data,Yes,Yes,1300,1,5,M,1,195/245,White,Advanced,601,699,1300,46.23%,53.77%,73,5.62%,1227,94.38%,773,527,1300,59.46%,40.54%,63,4.85%,1237,95.15%
+2,PhantomLimb-Data-Extra-person1-1fps,Yes,Yes,180,1,1,M,2,195/245,White,Advanced,74,106,180,41.11%,58.89%,8,4.44%,172,95.56%,66,114,180,36.67%,63.33%,24,13.33%,156,86.67%
+3,PhantomLimb-Data-Extra-person1-3fps,Yes,Yes,168,1,3,M,3,195/245,White,Advanced,96,72,168,57.14%,42.86%,0,0.00%,168,100.00%,145,23,168,86.31%,13.69%,0,0.00%,168,100.00%
+4,PhantomLimb-Data-Extra-person1-5fps,Yes,Yes,150,1,5,M,3,195/245,White,Advanced,60,90,150,40.00%,60.00%,8,5.33%,142,94.67%,113,37,150,75.33%,24.67%,25,16.67%,125,83.33%
+5,PhantomLimb-Data-Extra-person2-1fps,Yes,Yes,100,2,1,F,4,195/245,White,Advanced,50,50,100,50.00%,50.00%,12,12.00%,88,88.00%,94,6,100,94.00%,6.00%,25,25.00%,75,75.00%
+6,PhantomLimb-Data-Extra-person2-3fps,Yes,Yes,123,2,3,F,4,195/245,White,Advanced,62,61,123,50.41%,49.59%,8,6.50%,115,93.50%,110,13,123,89.43%,10.57%,5,4.07%,118,95.93%
+7,PhantomLimb-Data-Extra-person2-5fps,Yes,Yes,150,2,5,F,4,195/245,White,Advanced,80,70,150,53.33%,46.67%,100,66.67%,50,33.33%,103,47,150,68.67%,31.33%,2,1.33%,148,98.67%
+8,PhantomLimb-Data-Extra-person3-5fps,Yes,Yes,175,3,5,M,5,245,White,Intermediate,76,99,175,43.43%,56.57%,7,4.00%,168,96.00%,85,90,175,48.57%,51.43%,0,0.00%,175,100.00%
+9,PhantomLimb-Data-Extra-person4-1fps,Yes,Yes,140,4,1,M,6,195,Black,Intermediate,119,21,140,85.00%,15.00%,5,3.57%,135,96.43%,86,54,140,61.43%,38.57%,46,32.86%,94,67.14%
+11,PhantomLimb-Data-Extra-person4-3fps,Yes,Yes,229,4,3,M,6,245,Black,Intermediate,201,28,229,87.77%,12.23%,21,9.17%,208,90.83%,175,54,229,76.42%,23.58%,118,51.53%,111,48.47%
+12,PhantomLimb-Data-Extra-person4-5fps,Yes,Yes,325,4,5,M,6,195/245,Black,Intermediate,293,32,325,90.15%,9.85%,103,31.69%,222,68.31%,190,135,325,58.46%,41.54%,21,6.46%,304,93.54%
+13,PhantomLimb-Data-Extra-person5-1fps,Yes,Yes,75,5,1,F,7,195,Black,Intermediate,40,35,75,53.33%,46.67%,29,38.67%,46,61.33%,75,0,75,100.00%,0.00%,7,9.33%,68,90.67%
+14,PhantomLimb-Data-Extra-person5-3fps,Yes,Yes,152,5,3,F,7,195,Black,Intermediate,87,65,152,57.24%,42.76%,44,28.95%,108,71.05%,146,6,152,96.05%,3.95%,19,12.50%,133,87.50%
+15,PhantomLimb-Data-Extra-person5-5fps,Yes,Yes,275,5,5,F,7,245,Black,Intermediate,248,27,275,90.18%,9.82%,24,8.73%,251,91.27%,229,46,275,83.27%,16.73%,105,38.18%,170,61.82%
+16,PhantomLimb-Data-Extra-person6-1fps,Yes,Yes,130,3,1,M,8,245,Black,Intermediate,59,71,130,45.38%,54.62%,3,2.31%,127,97.69%,78,52,130,60.00%,40.00%,10,7.69%,120,92.31%
+17,PhantomLimb-Data-Extra-person6-3fps,Yes,Yes,183,3,3,M,8,245,Black,Intermediate,106,77,183,57.92%,42.08%,2,1.09%,181,98.91%,57,126,183,31.15%,68.85%,2,1.09%,181,98.91%
+18,PhantomLimb-Data-Extra-person6-5fps,Yes,Yes,250,3,5,M,8,245,Black,Intermediate,120,130,250,48.00%,52.00%,28,11.20%,222,88.80%,138,112,250,55.20%,44.80%,23,9.20%,227,90.80%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,4105,4105,4105,5 users, 3 config.,,8 outfits,,2 backgrounds,2 levels,2372,1733,4105,57.78%,42.22%,475,11.57%,3630,88.43%,2663,1442,4105,64.87%,35.13%,495,12.06%,3610,87.94%
+,unlabeled,0,0,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,195,245,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Position,Background,Level,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,,,,,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,,,,
+1,phantomLimb-test-person1-5fps-black,Yes,Yes,100,6,5,F,1,245,Black,Intermediate,93,7,100,93.00%,7.00%,4,4.00%,96,96.00%,89,11,100,89.00%,11.00%,17,17.00%,83,83.00%
+2,phantomLimb-test-person2-3fps-black,Yes,Yes,46,7,3,M,2,245,Black,Intermediate,11,35,46,23.91%,76.09%,15,32.61%,31,67.39%,46,0,46,100.00%,0.00%,0,0.00%,46,100.00%
+3,phantomLimb-test-person2-5fps-black,Yes,Yes,75,7,5,M,2,245,Black,Intermediate,2,73,75,2.67%,97.33%,13,17.33%,62,82.67%,2,73,75,2.67%,97.33%,0,0.00%,75,100.00%
+4,phantomLimb-test-person3-1fps-black,Yes,Yes,50,1,1,M,3,245,Black,Advanced,35,15,50,70.00%,30.00%,8,16.00%,42,84.00%,50,0,50,100.00%,0.00%,1,2.00%,49,98.00%
+5,phantomLimb-test-person3-1fps-white,Yes,Yes,45,1,1,M,3,245,White,Advanced,18,27,45,40.00%,60.00%,8,17.78%,37,82.22%,40,5,45,88.89%,11.11%,7,15.56%,38,84.44%
+6,phantomLimb-test-person3-5fps-white,Yes,Yes,75,1,5,M,3,245,White,Advanced,18,57,75,24.00%,76.00%,13,17.33%,62,82.67%,63,12,75,84.00%,16.00%,1,1.33%,74,98.67%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,391,391,391,3 users, 3 config.,,3 outfits,,2 backgrounds,2 levels,177,214,391,45.27%,54.73%,61,15.60%,330,84.40%,290,101,391,74.17%,25.83%,26,6.65%,365,93.35%
+,unlabeled,0,0,,,,,,,,Expert/ Intermediate / Beginner,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Phantomlimb_ALL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,4496,4496,4496,,,,,,,,2549,1947,4496,56.69%,43.31%,536,11.92%,3960,88.08%,2953,1543,4496,65.68%,34.32%,521,11.59%,3975,88.41%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Position,Background,Level,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,,,,,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,,,,
+1,PianoTiles_Data_p1_5fps,Yes,Yes,440,1,5,M,1,195/245,White,Advanced,228,212,440,51.82%,48.18%,14,3.18%,426,96.82%,386,54,440,87.73%,12.27%,10,2.27%,430,97.73%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,440,440,440,1 users, 1 config.,,1 outfits,,1 background,1 level,228,212,440,51.82%,48.18%,14,3.18%,426,96.82%,386,54,440,87.73%,12.27%,10,2.27%,430,97.73%
+,unlabeled,0,0,,,,,,,,Expert/ Intermediate / Beginner,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Position,Background,Level,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,,,,,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,,,,
+1,VRArchery_Data_p1_5fps_1,Yes,Yes,100,1,5,M,1,195/245,Black,Advanced,14,86,100,14.00%,86.00%,3,3.00%,97,97.00%,14,86,100,14.00%,86.00%,14,14.00%,86,86.00%
+2,VRArchery_Data_p1_5fps_2,Yes,Yes,175,1,5,M,1,195/245,Black,Advanced,26,149,175,14.86%,85.14%,22,12.57%,153,87.43%,64,111,175,36.57%,63.43%,15,8.57%,160,91.43%
+3,VRArchery_Data_p1_5fps_3,Yes,Yes,150,1,5,M,1,195/245,Black,Advanced,43,107,150,28.67%,71.33%,1,0.67%,149,99.33%,43,107,150,28.67%,71.33%,6,4.00%,144,96.00%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,425,425,425,1 users, 1 config.,,1 outfits,,1 background,1 level,83,342,425,19.53%,80.47%,3,0.71%,422,99.29%,121,304,425,28.47%,71.53%,35,8.24%,390,91.76%
+,unlabeled,0,0,,,,,,,,Expert/ Intermediate / Beginner,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Position,Background,Level,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,,,,,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,,,,
+1,puzzle_data_5fps_p1_02,Yes,Yes,300,1,5,M,1,195/245,Black,Advanced,86,214,300,28.67%,71.33%,36,12.00%,264,88.00%,86,214,300,28.67%,71.33%,29,9.67%,271,90.33%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,300,300,300,1 users, 1 config.,,1 outfits,,1 background,1 level,86,214,300,28.67%,71.33%,36,12.00%,264,88.00%,86,214,300,28.67%,71.33%,29,9.67%,271,90.33%
+,unlabeled,0,0,,,,,,,,Expert/ Intermediate / Beginner,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Position,Background,Level,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,,,,,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,,,,
+1,gameover_sea_data_5fps_p1_01,Yes,Yes,300,1,5,M,1,195/245,Black,Advanced,168,132,300,56.00%,44.00%,23,7.67%,277,92.33%,164,136,300,54.67%,45.33%,21,7.00%,279,93.00%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,300,300,300,1 users, 1 config.,,1 outfits,,1 background,1 level,168,132,300,56.00%,44.00%,23,7.67%,277,92.33%,164,136,300,54.67%,45.33%,21,7.00%,279,93.00%
+,unlabeled,0,0,,,,,,,,Expert/ Intermediate / Beginner,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#,Alias,Labeled,2xLabeled,Data Size,Person #,FPS,Gender,Outfit #,Position,Background,Level,Spatial 0,Spatial 1,Spatial Total,Spatial 0 %,Spatial 1 %,,,,,Temporal 0,Temporal 1,Temporal Total,Temporal 0 %,Temporal 1 %,,,,
+1,gameover_war_data_5fps_p1_01,Yes,Yes,281,1,5,M,1,195/245,Black,Advanced,177,104,281,62.99%,37.01%,10,3.56%,271,96.44%,165,116,281,58.72%,41.28%,2,0.71%,279,99.29%
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Total,labeled,281,281,281,1 users, 1 config.,,1 outfits,,1 background,1 level,177,104,281,62.99%,37.01%,10,3.56%,271,96.44%,165,116,281,58.72%,41.28%,2,0.71%,279,99.29%
+,unlabeled,0,0,,,,,,,,Expert/ Intermediate / Beginner,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,Total Data,6242,,,,,,,,,,3291,2951,6242,52.72%,47.28%,622,9.96%,5620,90.04%,3875,2367,6242,62.08%,37.92%,618,9.90%,5624,90.10%

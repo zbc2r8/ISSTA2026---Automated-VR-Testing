@@ -1,0 +1,8 @@
+Id,Data Type,Architecture,Acc.,Prec.,Rec.,F1,TP,TN,FP,FN,Calc Acc.,Calc. Prec.,Calc. Rec.,,
+pt_1d_t_t,combined,1DCNN-Transformer-Transformer,82.95%,80.13%,86.77%,83.04%,184,181,47,28,82.95%,79.65%,86.8,,
+a_1d_t_t,combined,1DCNN-Transformer-Transformer,87.53%,86.98%,100.00%,92.93%,342,30,53,0,87.53%,86.58%,100.0,,
+p_1d_t_t,combined,1DCNN-Transformer-Transformer,91.67%,91.21%,98.60%,94.55%,211,64,22,3,91.67%,90.56%,98.6,,
+s_1d_t_t,combined,1DCNN-Transformer-Transformer,95.33%,91.26%,99.26%,95.03%,131,155,13,1,95.33%,90.97%,99.2,,
+w_1d_t_t,combined,1DCNN-Transformer-Transformer,88.63%,81.76%,92.19%,86.09%,96,153,24,8,88.61%,80.00%,92.3,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,, 

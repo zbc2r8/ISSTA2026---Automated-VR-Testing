@@ -1,0 +1,250 @@
+{
+  "app": "War",
+  "task": "Temporal_sequence",
+  "model": "LR_balanced",
+  "seed": 42,
+  "label_col": "Temporal",
+  "seq_len": 5,
+  "agg_use": [
+    "mean",
+    "std",
+    "delta",
+    "range",
+    "mean_abs_vel",
+    "vel_std"
+  ],
+  "min_non_nan_ratio": 0.4,
+  "order_col": "EntryID",
+  "frame_feature_cols": [
+    "Bomb_0_X",
+    "Bomb_0_Y",
+    "Bomb_0_Z",
+    "Bomb_1_X",
+    "Bomb_1_Y",
+    "Bomb_1_Z",
+    "Bomb_10_X",
+    "Bomb_10_Y",
+    "Bomb_10_Z",
+    "Bomb_11_X",
+    "Bomb_11_Y",
+    "Bomb_11_Z",
+    "Bomb_2_X",
+    "Bomb_2_Y",
+    "Bomb_2_Z",
+    "Bomb_3_X",
+    "Bomb_3_Y",
+    "Bomb_3_Z",
+    "Bomb_4_X",
+    "Bomb_4_Y",
+    "Bomb_4_Z",
+    "Bomb_5_X",
+    "Bomb_5_Y",
+    "Bomb_5_Z",
+    "Bomb_6_X",
+    "Bomb_6_Y",
+    "Bomb_6_Z",
+    "Bomb_7_X",
+    "Bomb_7_Y",
+    "Bomb_7_Z",
+    "Bomb_8_X",
+    "Bomb_8_Y",
+    "Bomb_8_Z",
+    "Bomb_9_X",
+    "Bomb_9_Y",
+    "Bomb_9_Z",
+    "Coin_X",
+    "Coin_Y",
+    "Coin_Z",
+    "ElbowL_X",
+    "ElbowL_Y",
+    "ElbowL_Z",
+    "ElbowR_X",
+    "ElbowR_Y",
+    "ElbowR_Z",
+    "FootL_X",
+    "FootL_Y",
+    "FootL_Z",
+    "FootR_X",
+    "FootR_Y",
+    "FootR_Z",
+    "Ground_X",
+    "Ground_Y",
+    "Ground_Z",
+    "HandL_X",
+    "HandL_Y",
+    "HandL_Z",
+    "HandR_X",
+    "HandR_Y",
+    "HandR_Z",
+    "Head_X",
+    "Head_Y",
+    "Head_Z",
+    "KneeL_X",
+    "KneeL_Y",
+    "KneeL_Z",
+    "KneeR_X",
+    "KneeR_Y",
+    "KneeR_Z",
+    "Passport_X",
+    "Passport_Y",
+    "Passport_Z",
+    "Player_X",
+    "Player_Y",
+    "Player_Z",
+    "PlayerImage_X",
+    "PlayerImage_Y",
+    "PlayerImage_Z",
+    "PlayerTransformEffect_X",
+    "PlayerTransformEffect_Y",
+    "PlayerTransformEffect_Z",
+    "SpineBase_X",
+    "SpineBase_Y",
+    "SpineBase_Z",
+    "Suitcase_X",
+    "Suitcase_Y",
+    "Suitcase_Z",
+    "Spatial_1",
+    "Temporal_1",
+    "Spatial_2",
+    "Temporal_2"
+  ],
+  "frame_F": 91,
+  "seq_feature_dim": 546,
+  "cv_n_splits": 5,
+  "fold_metrics": [
+    {
+      "app": "War",
+      "fold": 1,
+      "n_train": 221,
+      "n_test": 56,
+      "accuracy": 0.9821428571428571,
+      "precision": 1.0,
+      "recall": 0.9565217391304348,
+      "f1_score": 0.9777777777777777,
+      "cm": [
+        [
+          33,
+          0
+        ],
+        [
+          1,
+          22
+        ]
+      ]
+    },
+    {
+      "app": "War",
+      "fold": 2,
+      "n_train": 221,
+      "n_test": 56,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cm": [
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          24
+        ]
+      ]
+    },
+    {
+      "app": "War",
+      "fold": 3,
+      "n_train": 222,
+      "n_test": 55,
+      "accuracy": 0.9818181818181818,
+      "precision": 0.9583333333333334,
+      "recall": 1.0,
+      "f1_score": 0.9787234042553191,
+      "cm": [
+        [
+          31,
+          1
+        ],
+        [
+          0,
+          23
+        ]
+      ]
+    },
+    {
+      "app": "War",
+      "fold": 4,
+      "n_train": 222,
+      "n_test": 55,
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "cm": [
+        [
+          32,
+          0
+        ],
+        [
+          0,
+          23
+        ]
+      ]
+    },
+    {
+      "app": "War",
+      "fold": 5,
+      "n_train": 222,
+      "n_test": 55,
+      "accuracy": 0.9636363636363636,
+      "precision": 0.92,
+      "recall": 1.0,
+      "f1_score": 0.9583333333333334,
+      "cm": [
+        [
+          30,
+          2
+        ],
+        [
+          0,
+          23
+        ]
+      ]
+    }
+  ],
+  "cv_mean": {
+    "accuracy": 0.9855194805194806,
+    "precision": 0.9756666666666668,
+    "recall": 0.9913043478260869,
+    "f1_score": 0.982966903073286
+  },
+  "cv_std": {
+    "accuracy": 0.013589281738748073,
+    "precision": 0.032173142698703056,
+    "recall": 0.017391304347826077,
+    "f1_score": 0.01569713249936655
+  },
+  "best_fold": 2,
+  "best_fold_metrics": {
+    "app": "War",
+    "fold": 2,
+    "n_train": 221,
+    "n_test": 56,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0,
+    "cm": [
+      [
+        32,
+        0
+      ],
+      [
+        0,
+        24
+      ]
+    ]
+  },
+  "notes": "RQ3-consistent: 5-fold CV on per-app sequence dataset. Model expects 5-frame windows aggregated into one vector."
+}

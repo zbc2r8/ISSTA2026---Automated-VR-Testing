@@ -1,0 +1,4 @@
+Label,Count,Avg(ms),Min,Max,StdDev
+GatherData,103,0.00,0,0,0.00
+LogData,5,0.00,0,0,0.00
+FPS,20,175.40,46,199,38.17

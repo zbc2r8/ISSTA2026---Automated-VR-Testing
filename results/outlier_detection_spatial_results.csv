@@ -1,0 +1,15 @@
+Id,Data Type,Architecture,Acc.,Prec.,Rec.,F1,TP,TN,FP,FN,Calc Acc.,Calc. Prec.,Calc. Rec.
+pt_robust,positional,z_score_robust@4.50,52.50%,50.42%,83.96%,63.01%,178,53,175,34,52.50%,50.42%,84.0
+pt_standard,positional,z_score_standard@2.50,56.59%,53.93%,67.92%,60.13%,144,105,123,68,56.59%,53.93%,67.9
+a_robust,positional,z_score_robust@4.50,87.76%,99.32%,85.38%,91.82%,292,81,2,50,87.76%,99.32%,85.4
+a_standard,positional,z_score_standard@2.50,90.82%,99.35%,89.18%,93.99%,305,81,2,37,90.82%,99.35%,89.2
+p_robust,positional,z_score_robust@4.50,63.33%,82.91%,61.21%,70.43%,131,59,27,83,63.33%,82.91%,61.2
+p_standard,positional,z_score_standard@2.50,86.33%,89.86%,91.12%,90.49%,195,64,22,19,86.33%,89.86%,91.1
+s_robust,positional,z_score_robust@3.00,85.67%,90.09%,75.76%,82.30%,100,157,11,32,85.67%,90.09%,75.8
+s_standard,positional,z_score_standard@1.50,71.00%,85.71%,40.91%,55.38%,54,159,9,78,71.00%,85.71%,40.9
+w_robust,positional,z_score_robust@3.00,71.53%,63.33%,54.81%,58.76%,57,144,33,47,71.53%,63.33%,54.8
+w_standard,positional,z_score_standard@1.50,62.28%,48.15%,25.00%,32.91%,26,149,28,78,62.28%,48.15%,25.0
+pl_robust,positional,z_score_robust@3.00,53.45%,46.04%,59.72%,52.00%,1035,1159,1213,698,53.45%,46.04%,59.7
+pl_standard,positional,z_score_standard@2.00,56.35%,48.90%,75.42%,59.33%,1307,1006,1366,426,56.35%,48.90%,75.4
+pl_hold_robust,positional,z_score_robust@4.50,73.57%,96.69%,57.94%,72.46%,146,163,5,106,73.57%,96.69%,57.9
+pl_hold_standard,positional,z_score_standard@1.50,65.71%,86.99%,50.40%,63.82%,127,149,19,125,65.71%,86.99%,50.4

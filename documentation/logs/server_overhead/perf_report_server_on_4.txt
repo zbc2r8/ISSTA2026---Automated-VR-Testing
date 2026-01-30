@@ -1,0 +1,17 @@
+=== PERFORMANCE REPORT === 1/29/2026 9:54:31 PM
+InstrumentationEnabled: True
+
+FPS
+ Count:  17
+ Avg:    25.23
+ Min:    24.49
+ Max:    28.45
+ StdDev: 0.86
+
+ServerRequestMs
+ Count:  42
+ Avg:    270.08
+ Min:    237.65
+ Max:    316.32
+ StdDev: 11.29
+

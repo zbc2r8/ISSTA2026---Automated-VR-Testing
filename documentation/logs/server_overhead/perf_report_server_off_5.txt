@@ -1,0 +1,10 @@
+=== PERFORMANCE REPORT === 1/29/2026 10:00:45 PM
+InstrumentationEnabled: False
+
+FPS
+ Count:  15
+ Avg:    25.00
+ Min:    24.59
+ Max:    25.76
+ StdDev: 0.32
+
