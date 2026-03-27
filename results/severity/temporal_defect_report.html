@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>Temporal Defect Severity Report</title>
+<style>body{font-family:Arial,sans-serif;max-width:1120px;margin:32px auto;padding:0 20px;color:#222;line-height:1.4}h1,h2{margin-bottom:8px}table{border-collapse:collapse;width:100%;max-width:760px;margin:10px 0 16px 0}th,td{border:1px solid #ccc;padding:8px 10px;text-align:left;vertical-align:top}th{background:#f5f5f5}img{max-width:100%;height:auto;border:1px solid #ddd;margin:8px 0 14px 0}ul{margin-top:8px}.game{margin-top:28px}p{max-width:920px}</style></head><body>
+<h1>Temporal Defect Severity Report</h1>
+<h2>Overall Summary</h2>
+<table>
+<tr><th>Metric</th><th>Value</th></tr>
+<tr><td title="Number of labeled data points in the analysis. Formula: count(all rows)">total rows</td><td title="Number of labeled data points in the analysis. Formula: count(all rows)">6242</td></tr>
+<tr><td title="Number of defective data points. Formula: count(defect rows)">total defects</td><td title="Number of defective data points. Formula: count(defect rows)">3875</td></tr>
+<tr><td title="Proportion of defective frames. Formula: defects / total_frames">frequency</td><td title="Proportion of defective frames. Formula: defects / total_frames">0.621</td></tr>
+<tr><td title="Portion of session affected by defects. Formula: defects / total_frames">coverage</td><td title="Portion of session affected by defects. Formula: defects / total_frames">62.1%</td></tr>
+<tr><td title="Average length of continuous defect segments. Formula: mean(segment lengths)">mean persistence</td><td title="Average length of continuous defect segments. Formula: mean(segment lengths)">26.9 data points</td></tr>
+<tr><td title="Longest continuous defect segment. Formula: max(segment lengths)">max persistence</td><td title="Longest continuous defect segment. Formula: max(segment lengths)">262.0 data points</td></tr>
+<tr><td title="Number of label changes normalized by sequence length. Formula: transitions / (N - 1)">instability_rate</td><td title="Number of label changes normalized by sequence length. Formula: transitions / (N - 1)">0.030</td></tr>
+</table>
+<img src="../severity_metrics/temporal/defect_frequency_per_game.png" alt="defect_frequency_per_game.png">
+<img src="../severity_metrics/temporal/defect_segment_lengths_histogram.png" alt="defect_segment_lengths_histogram.png">
+<p>Defects occur in 62.1% of data points overall, with 62.1% of the full dataset affected. Defects are frequent overall and include several long-lasting segments, with mean persistence of 26.9 data points and instability_rate of 0.030.</p>
+<h2>Severity Pattern Legend</h2>
+<table>
+<tr><th>Severity Pattern</th><th>Definition</th><th>Rule</th></tr>
+<tr><td>Short isolated defects</td><td>Low persistence, low coverage, and not classified as unstable.</td><td>Assigned when neither the long-lasting rule nor the unstable rule is triggered.</td></tr>
+<tr><td>Unstable defects</td><td>Frequent switching between correct and defective states.</td><td>Assigned when instability_rate &gt;= 0.15 and the long-lasting rule is not triggered.</td></tr>
+<tr><td>Long-lasting defects</td><td>Defects persist for long continuous stretches or affect a large portion of the execution.</td><td>Assigned when coverage &gt;= 0.30 OR max_persistence &gt;= 0.20 * avg_execution_length.</td></tr>
+</table>
+<p>These severity patterns are based on configurable operational thresholds for this dataset.</p>
+<table>
+<tr><th>Threshold</th><th>Value</th></tr>
+<tr><td>MINOR_MAX_LENGTH</td><td>2</td></tr>
+<tr><td>MODERATE_MAX_LENGTH</td><td>5</td></tr>
+<tr><td>SEVERE_MIN_LENGTH</td><td>6</td></tr>
+<tr><td>COVERAGE_SEVERE_THRESHOLD</td><td>0.30</td></tr>
+<tr><td>INSTABILITY_THRESHOLD</td><td>0.15</td></tr>
+<tr><td>PERSISTENCE_RATIO_THRESHOLD</td><td>0.20</td></tr>
+</table>
+<h2>All Games Quick Summary</h2>
+<table><tr><th>Game</th><th>Frequency</th><th>Coverage</th><th>Mean Persistence</th><th>Instability</th><th>Severity Type</th><th>Trigger Rule</th></tr>
+<tr><td>Archery</td><td>0.285</td><td>28.5%</td><td>15.1 data points</td><td>0.031</td><td>long-lasting defects</td><td>long-lasting: persistence</td></tr>
+<tr><td>PhantomLimb</td><td>0.649</td><td>64.9%</td><td>25.4 data points</td><td>0.032</td><td>long-lasting defects</td><td>long-lasting: coverage</td></tr>
+<tr><td>PhantomLimb Holdout</td><td>0.742</td><td>74.2%</td><td>26.4 data points</td><td>0.029</td><td>long-lasting defects</td><td>long-lasting: coverage</td></tr>
+<tr><td>PianoTiles</td><td>0.877</td><td>87.7%</td><td>48.2 data points</td><td>0.032</td><td>long-lasting defects</td><td>long-lasting: coverage</td></tr>
+<tr><td>Puzzle</td><td>0.287</td><td>28.7%</td><td>17.2 data points</td><td>0.027</td><td>short isolated defects</td><td>short isolated: fallback</td></tr>
+<tr><td>Sea</td><td>0.547</td><td>54.7%</td><td>54.7 data points</td><td>0.017</td><td>long-lasting defects</td><td>long-lasting: coverage</td></tr>
+<tr><td>War</td><td>0.587</td><td>58.7%</td><td>41.2 data points</td><td>0.021</td><td>long-lasting defects</td><td>long-lasting: coverage</td></tr>
+</table>
+<h2>How To Read Metrics</h2>
+<ul>
+<li>Frequency: how often defects occur</li>
+<li>Coverage: how much of the session is affected</li>
+<li>Persistence: how long defects last</li>
+<li>Instability: how often defects switch</li>
+</ul>
+<div class="game"><h2>Archery</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.285</td></tr>
+<tr><td>Coverage</td><td>28.5%</td></tr>
+<tr><td>Mean Persistence</td><td>15.1 data points</td></tr>
+<tr><td>Max Persistence</td><td>33.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.031</td></tr>
+</table>
+<img src="../severity_metrics/temporal/Archery_defect_map.png" alt="Archery_defect_map.png">
+<p>This game is classified as long-lasting defects, meaning defects persist for long stretches or affect a large part of the execution. This classification is triggered because max persistence = 33.0, which is above the threshold of 28.3 data points.</p></div>
+<div class="game"><h2>PhantomLimb</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.649</td></tr>
+<tr><td>Coverage</td><td>64.9%</td></tr>
+<tr><td>Mean Persistence</td><td>25.4 data points</td></tr>
+<tr><td>Max Persistence</td><td>262.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.032</td></tr>
+</table>
+<img src="../severity_metrics/temporal/PhantomLimb_main_data_defect_map.png" alt="PhantomLimb_main_data_defect_map.png">
+<img src="../severity_metrics/temporal/PhantomLimb_extra_data_defect_map.png" alt="PhantomLimb_extra_data_defect_map.png">
+<p>This game is classified as long-lasting defects, meaning defects persist for long stretches or affect a large part of the execution. This classification is triggered because coverage = 0.649, which is above the threshold of 0.30.</p></div>
+<div class="game"><h2>PhantomLimb Holdout</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.742</td></tr>
+<tr><td>Coverage</td><td>74.2%</td></tr>
+<tr><td>Mean Persistence</td><td>26.4 data points</td></tr>
+<tr><td>Max Persistence</td><td>84.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.029</td></tr>
+</table>
+<img src="../severity_metrics/temporal/PhantomLimb_Holdout_defect_map.png" alt="PhantomLimb_Holdout_defect_map.png">
+<p>This game is classified as long-lasting defects, meaning defects persist for long stretches or affect a large part of the execution. This classification is triggered because coverage = 0.742, which is above the threshold of 0.30.</p></div>
+<div class="game"><h2>PianoTiles</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.877</td></tr>
+<tr><td>Coverage</td><td>87.7%</td></tr>
+<tr><td>Mean Persistence</td><td>48.2 data points</td></tr>
+<tr><td>Max Persistence</td><td>206.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.032</td></tr>
+</table>
+<img src="../severity_metrics/temporal/PianoTiles_defect_map.png" alt="PianoTiles_defect_map.png">
+<p>This game is classified as long-lasting defects, meaning defects persist for long stretches or affect a large part of the execution. This classification is triggered because coverage = 0.877, which is above the threshold of 0.30.</p></div>
+<div class="game"><h2>Puzzle</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.287</td></tr>
+<tr><td>Coverage</td><td>28.7%</td></tr>
+<tr><td>Mean Persistence</td><td>17.2 data points</td></tr>
+<tr><td>Max Persistence</td><td>30.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.027</td></tr>
+</table>
+<img src="../severity_metrics/temporal/Puzzle_defect_map.png" alt="Puzzle_defect_map.png">
+<p>This game does not cross the configured long-lasting or unstable thresholds, although some defect segments are still moderately persistent. This classification is assigned because neither the long-lasting nor unstable thresholds were reached.</p></div>
+<div class="game"><h2>Sea</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.547</td></tr>
+<tr><td>Coverage</td><td>54.7%</td></tr>
+<tr><td>Mean Persistence</td><td>54.7 data points</td></tr>
+<tr><td>Max Persistence</td><td>151.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.017</td></tr>
+</table>
+<img src="../severity_metrics/temporal/Sea_defect_map.png" alt="Sea_defect_map.png">
+<p>This game is classified as long-lasting defects, meaning defects persist for long stretches or affect a large part of the execution. This classification is triggered because coverage = 0.547, which is above the threshold of 0.30.</p></div>
+<div class="game"><h2>War</h2>
+<table><tr><th>Metric</th><th>Value</th></tr>
+<tr><td>Frequency</td><td>0.587</td></tr>
+<tr><td>Coverage</td><td>58.7%</td></tr>
+<tr><td>Mean Persistence</td><td>41.2 data points</td></tr>
+<tr><td>Max Persistence</td><td>87.0 data points</td></tr>
+<tr><td>Instability Rate</td><td>0.021</td></tr>
+</table>
+<img src="../severity_metrics/temporal/War_defect_map.png" alt="War_defect_map.png">
+<p>This game is classified as long-lasting defects, meaning defects persist for long stretches or affect a large part of the execution. This classification is triggered because coverage = 0.587, which is above the threshold of 0.30.</p></div>
+</body></html>

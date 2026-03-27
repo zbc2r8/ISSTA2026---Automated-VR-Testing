@@ -1,0 +1,350 @@
+game,execution_id,segment_id,start_index,end_index,segment_length,severity_level
+Archery,archery_data_5fps_p1_01__seq_0,1,0,2,3,moderate
+Archery,archery_data_5fps_p1_01__seq_0,2,29,39,11,severe
+Archery,archery_data_5fps_p1_02__seq_0,1,0,12,13,severe
+Archery,archery_data_5fps_p1_02__seq_0,2,66,72,7,severe
+Archery,archery_data_5fps_p1_02__seq_0,3,74,78,5,moderate
+Archery,archery_data_5fps_p1_02__seq_0,4,127,127,1,minor
+Archery,archery_data_5fps_p1_03__seq_0,1,0,29,30,severe
+Archery,archery_data_5fps_p1_03__seq_0,2,132,143,12,severe
+Archery,archery_data_5fps_p1_03__seq_0,3,145,145,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,1,0,0,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,2,8,8,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,3,17,17,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,4,23,23,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,5,26,27,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,6,34,34,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,7,44,48,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,8,51,52,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_1,1,0,0,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_1,2,3,10,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_1,3,17,17,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_1,4,22,22,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_1,5,28,28,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,1,0,0,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,2,5,5,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,3,8,8,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,4,11,17,7,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,5,19,33,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,6,35,40,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,7,42,42,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,8,48,62,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,9,79,79,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_0,1,0,15,16,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_0,2,30,45,16,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_1,1,0,19,20,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,1,0,16,17,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,2,18,20,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,3,22,22,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,4,30,32,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,5,35,36,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,6,42,50,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,7,52,60,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_0,1,0,24,25,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_0,2,27,29,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_0,3,44,46,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_0,4,65,74,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_1,1,0,16,17,severe
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_1,2,68,69,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_0,1,0,3,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_1,1,0,2,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_2,1,0,3,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_2,2,9,9,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_2,3,11,11,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_2,4,15,24,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_3,1,0,2,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_4,1,0,2,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_4,2,5,5,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_5,1,0,19,20,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_0,1,0,16,17,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_1,1,0,11,12,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_2,1,0,8,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_2,2,13,21,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_2,3,27,29,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_2,4,34,45,12,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_0,1,0,23,24,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_1,1,0,8,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_1,2,13,20,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_1,3,23,23,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_1,4,25,41,17,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_1,5,44,49,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_2,1,0,14,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,1,0,9,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,2,12,13,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,3,19,23,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,4,25,27,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,5,35,40,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,6,42,43,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,7,49,63,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,8,70,74,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_1,1,0,27,28,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_0,1,0,7,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_0,2,20,20,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_0,3,23,39,17,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_1,1,0,14,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,1,0,5,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,2,7,7,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,3,11,12,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,4,14,14,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,5,16,18,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,6,20,44,25,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_3,1,0,9,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_4,1,0,29,30,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,1,0,14,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,2,19,21,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,3,24,25,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,4,28,37,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,5,40,50,11,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,6,52,56,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,7,59,68,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,8,72,76,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,9,79,82,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,10,85,87,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,11,90,100,11,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,12,103,106,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,13,108,108,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,14,110,113,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,15,116,121,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_1,1,0,30,31,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_2,1,0,75,76,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_0,1,0,0,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_1,1,0,156,157,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_1,2,163,187,25,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_1,3,189,199,11,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,1,0,1,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,2,3,17,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,3,26,26,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,4,30,37,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,5,40,46,7,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,6,50,58,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,7,61,79,19,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,8,81,99,19,severe
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,9,103,121,19,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,1,0,4,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,2,7,8,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,3,10,14,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,4,16,16,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,5,19,20,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,6,29,30,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,7,33,33,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,1,0,4,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,2,8,14,7,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,3,16,16,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,4,18,18,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,5,20,21,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,6,25,27,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,7,31,32,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,8,35,35,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,1,0,13,14,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,2,18,19,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,3,21,23,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,4,25,27,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,5,30,37,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,6,43,47,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,7,49,52,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,8,55,55,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,9,62,62,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,10,69,69,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,11,74,79,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,1,0,17,18,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,2,19,19,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,3,22,22,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,4,24,25,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,5,28,29,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,6,31,32,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,7,35,35,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,8,39,39,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,9,42,43,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,10,46,47,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,11,50,50,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,12,55,60,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,1,0,62,63,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,2,64,66,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,3,75,75,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,4,77,84,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,5,86,88,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,6,91,105,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,7,107,109,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,8,112,124,13,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,1,0,82,83,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,2,84,109,26,severe
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,3,111,114,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,4,116,119,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,5,121,124,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,6,126,129,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,7,131,134,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,8,137,140,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,9,142,145,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,10,148,149,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_0,1,0,12,13,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_0,2,51,54,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_1,1,0,8,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,1,0,8,9,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,2,10,10,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,3,12,14,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,4,16,18,3,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,5,20,20,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,6,22,22,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,7,24,29,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,8,34,41,8,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,9,43,43,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,1,0,13,14,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,2,15,19,5,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,3,21,21,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,4,25,34,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,5,39,45,7,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,6,47,50,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,7,54,57,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,8,60,70,11,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,9,73,94,22,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,10,97,106,10,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_1,1,0,17,18,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,1,0,22,23,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,2,27,32,6,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,3,36,50,15,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,4,56,72,17,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,5,78,93,16,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,6,99,99,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_1,1,0,29,30,severe
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_1,2,86,86,1,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_1,3,108,109,2,minor
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_1,4,124,127,4,moderate
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_1,5,138,142,5,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,1,0,0,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,2,2,6,5,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,3,17,19,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,4,43,45,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,5,50,52,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,6,64,82,19,severe
+PhantomLimb,PhantomLimb_Data__seq_0,7,87,87,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,8,109,109,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,9,125,128,4,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,10,133,141,9,severe
+PhantomLimb,PhantomLimb_Data__seq_0,11,143,149,7,severe
+PhantomLimb,PhantomLimb_Data__seq_0,12,155,159,5,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,13,164,165,2,minor
+PhantomLimb,PhantomLimb_Data__seq_0,14,172,173,2,minor
+PhantomLimb,PhantomLimb_Data__seq_0,15,189,189,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,16,193,193,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,17,198,199,2,minor
+PhantomLimb,PhantomLimb_Data__seq_0,18,217,219,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,19,233,242,10,severe
+PhantomLimb,PhantomLimb_Data__seq_0,20,245,247,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,21,249,263,15,severe
+PhantomLimb,PhantomLimb_Data__seq_0,22,312,312,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,23,314,314,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,24,324,326,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,25,356,356,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,26,358,367,10,severe
+PhantomLimb,PhantomLimb_Data__seq_0,27,394,394,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,28,396,397,2,minor
+PhantomLimb,PhantomLimb_Data__seq_0,29,451,455,5,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,30,460,460,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,31,510,510,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,32,531,531,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,33,564,564,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,34,566,571,6,severe
+PhantomLimb,PhantomLimb_Data__seq_0,35,573,573,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,36,600,600,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,37,624,626,3,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,38,629,630,2,minor
+PhantomLimb,PhantomLimb_Data__seq_0,39,638,642,5,moderate
+PhantomLimb,PhantomLimb_Data__seq_0,40,684,684,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,41,697,697,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,42,712,831,120,severe
+PhantomLimb,PhantomLimb_Data__seq_0,43,836,843,8,severe
+PhantomLimb,PhantomLimb_Data__seq_0,44,894,894,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,45,897,897,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,46,900,930,31,severe
+PhantomLimb,PhantomLimb_Data__seq_0,47,932,932,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,48,1000,1000,1,minor
+PhantomLimb,PhantomLimb_Data__seq_0,49,1010,1299,290,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person1-5fps-black__seq_0,1,0,12,13,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person1-5fps-black__seq_0,2,16,27,12,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person1-5fps-black__seq_0,3,32,99,68,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person2-3fps-black__seq_0,1,0,10,11,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person2-5fps-black__seq_0,1,0,1,2,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,1,0,4,5,moderate
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,2,7,7,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,3,15,15,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,4,17,21,5,moderate
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,5,23,29,7,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,6,31,39,9,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,7,41,43,3,moderate
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,8,46,49,4,moderate
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,1,0,3,4,moderate
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,2,5,5,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,3,23,29,7,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,4,31,31,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,5,33,33,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,6,35,35,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,7,41,41,1,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,8,43,44,2,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-5fps-white__seq_0,1,0,14,15,severe
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-5fps-white__seq_0,2,22,23,2,minor
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-5fps-white__seq_0,3,71,71,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,1,0,2,3,moderate
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,2,12,12,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,3,17,17,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,4,20,20,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,5,22,50,29,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,6,52,61,10,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,7,64,64,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,8,67,74,8,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,9,78,79,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,10,81,81,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,11,83,146,64,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,12,148,166,19,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,13,169,172,4,moderate
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,14,174,174,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,15,203,204,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,16,225,227,3,moderate
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,17,240,254,15,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,18,268,268,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,19,274,279,6,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,20,281,281,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,21,284,285,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,22,290,290,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,23,292,292,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,24,297,297,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,25,299,300,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,26,305,306,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,27,311,312,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,28,314,314,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,29,319,329,11,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,30,356,356,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,31,358,370,13,severe
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,32,377,377,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,33,388,388,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,34,398,398,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,35,400,400,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,36,403,403,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,37,405,406,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,38,408,408,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,39,411,411,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,40,416,416,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,41,419,419,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,42,421,421,1,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,43,424,426,3,moderate
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,44,429,430,2,minor
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,45,433,433,1,minor
+Puzzle,puzzle_data_5fps_p1_02__seq_0,1,0,7,8,severe
+Puzzle,puzzle_data_5fps_p1_02__seq_0,2,94,123,30,severe
+Puzzle,puzzle_data_5fps_p1_02__seq_0,3,227,242,16,severe
+Puzzle,puzzle_data_5fps_p1_02__seq_0,4,249,259,11,severe
+Puzzle,puzzle_data_5fps_p1_02__seq_0,5,279,299,21,severe
+Sea,gameover_sea_data_5fps_p1_01__seq_0,1,0,150,151,severe
+Sea,gameover_sea_data_5fps_p1_01__seq_0,2,252,257,6,severe
+Sea,gameover_sea_data_5fps_p1_01__seq_0,3,269,270,2,minor
+Sea,gameover_sea_data_5fps_p1_01__seq_0,4,273,275,3,moderate
+Sea,gameover_sea_data_5fps_p1_01__seq_0,5,291,291,1,minor
+Sea,gameover_sea_data_5fps_p1_01__seq_0,6,295,299,5,moderate
+War,gameover_war_data_5fps_p1_01__seq_0,1,0,0,1,minor
+War,gameover_war_data_5fps_p1_01__seq_0,2,2,43,42,severe
+War,gameover_war_data_5fps_p1_01__seq_0,3,52,67,16,severe
+War,gameover_war_data_5fps_p1_01__seq_0,4,71,78,8,severe
+War,gameover_war_data_5fps_p1_01__seq_0,5,100,117,18,severe
+War,gameover_war_data_5fps_p1_01__seq_0,6,123,124,2,minor
+War,gameover_war_data_5fps_p1_01__seq_0,7,181,181,1,minor
+War,gameover_war_data_5fps_p1_01__seq_0,8,184,185,2,minor
+War,gameover_war_data_5fps_p1_01__seq_0,9,194,280,87,severe

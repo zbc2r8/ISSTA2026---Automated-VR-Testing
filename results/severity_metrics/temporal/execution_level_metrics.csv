@@ -1,0 +1,61 @@
+game,execution_id,total_rows,defect_count,frequency,coverage,coverage_pct,instability,instability_rate,num_defect_segments,mean_segment_length,median_segment_length,max_segment_length,severity_pattern
+Archery,archery_data_5fps_p1_01__seq_0,100,14,0.14,0.14,14.000000000000002,3,0.030303030303030304,2,7.0,7.0,11,minor_isolated
+Archery,archery_data_5fps_p1_02__seq_0,175,64,0.3657142857142857,0.3657142857142857,36.57142857142857,7,0.040229885057471264,4,16.0,13.0,33,severe_prolonged
+Archery,archery_data_5fps_p1_03__seq_0,150,43,0.2866666666666667,0.2866666666666667,28.666666666666668,3,0.020134228187919462,2,21.5,21.5,30,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_0,60,10,0.16666666666666666,0.16666666666666666,16.666666666666664,3,0.05084745762711865,2,5.0,5.0,9,minor_isolated
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_1,40,38,0.95,0.95,95.0,2,0.05128205128205128,2,19.0,19.0,37,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-1fps__seq_2,80,18,0.225,0.225,22.5,5,0.06329113924050633,3,6.0,1.0,16,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_0,46,39,0.8478260869565217,0.8478260869565217,84.78260869565217,2,0.044444444444444446,2,19.5,19.5,35,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_1,61,58,0.9508196721311475,0.9508196721311475,95.08196721311475,2,0.03333333333333333,2,29.0,29.0,42,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-3fps__seq_2,61,48,0.7868852459016393,0.7868852459016393,78.68852459016394,5,0.08333333333333333,3,16.0,6.0,36,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_0,75,67,0.8933333333333333,0.8933333333333333,89.33333333333333,2,0.02702702702702703,2,33.5,33.5,65,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person1-5fps__seq_1,75,46,0.6133333333333333,0.6133333333333333,61.33333333333333,6,0.08108108108108109,4,11.5,6.5,32,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_0,5,5,1.0,1.0,100.0,0,0.0,1,5.0,5.0,5,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_1,10,10,1.0,1.0,100.0,0,0.0,1,10.0,10.0,10,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_2,25,24,0.96,0.96,96.0,2,0.08333333333333333,2,12.0,12.0,19,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_3,10,10,1.0,1.0,100.0,0,0.0,1,10.0,10.0,10,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_4,30,25,0.8333333333333334,0.8333333333333334,83.33333333333334,2,0.06896551724137931,2,12.5,12.5,22,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-1fps__seq_5,20,20,1.0,1.0,100.0,0,0.0,1,20.0,20.0,20,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_0,31,31,1.0,1.0,100.0,0,0.0,1,31.0,31.0,31,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_1,46,46,1.0,1.0,100.0,0,0.0,1,46.0,46.0,46,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-3fps__seq_2,46,33,0.717391304347826,0.717391304347826,71.73913043478261,4,0.08888888888888889,3,11.0,14.0,15,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_0,50,50,1.0,1.0,100.0,0,0.0,1,50.0,50.0,50,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_1,50,3,0.06,0.06,6.0,2,0.04081632653061224,2,1.5,1.5,2,minor_isolated
+PhantomLimb,PhantomLimb-Data-Extra-person2-5fps__seq_2,50,50,1.0,1.0,100.0,0,0.0,1,50.0,50.0,50,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_0,75,21,0.28,0.28,28.000000000000004,3,0.04054054054054054,2,10.5,10.5,20,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person3-5fps__seq_1,100,64,0.64,0.64,64.0,1,0.010101010101010102,1,64.0,64.0,64,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_0,40,18,0.45,0.45,45.0,2,0.05128205128205128,2,9.0,9.0,15,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_1,15,15,1.0,1.0,100.0,0,0.0,1,15.0,15.0,15,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_2,45,13,0.28888888888888886,0.28888888888888886,28.888888888888886,1,0.022727272727272728,1,13.0,13.0,13,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_3,10,10,1.0,1.0,100.0,0,0.0,1,10.0,10.0,10,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-1fps__seq_4,30,30,1.0,1.0,100.0,0,0.0,1,30.0,30.0,30,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_0,122,68,0.5573770491803278,0.5573770491803278,55.73770491803278,8,0.06611570247933884,5,13.6,16.0,20,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_1,31,31,1.0,1.0,100.0,0,0.0,1,31.0,31.0,31,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-3fps__seq_2,76,76,1.0,1.0,100.0,0,0.0,1,76.0,76.0,76,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_0,1,1,1.0,1.0,100.0,0,0.0,1,1.0,1.0,1,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_1,200,187,0.935,0.935,93.5,4,0.020100502512562814,3,62.333333333333336,37.0,120,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person4-5fps__seq_2,124,2,0.016129032258064516,0.016129032258064516,1.6129032258064515,1,0.008130081300813009,1,2.0,2.0,2,minor_isolated
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_0,35,35,1.0,1.0,100.0,0,0.0,1,35.0,35.0,35,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person5-1fps__seq_1,40,40,1.0,1.0,100.0,0,0.0,1,40.0,40.0,40,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_0,91,91,1.0,1.0,100.0,0,0.0,1,91.0,91.0,91,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person5-3fps__seq_1,61,55,0.9016393442622951,0.9016393442622951,90.1639344262295,2,0.03333333333333333,2,27.5,27.5,54,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_0,125,125,1.0,1.0,100.0,0,0.0,1,125.0,125.0,125,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person5-5fps__seq_1,150,104,0.6933333333333334,0.6933333333333334,69.33333333333334,5,0.03355704697986577,3,34.666666666666664,37.0,63,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_0,55,47,0.8545454545454545,0.8545454545454545,85.45454545454545,4,0.07407407407407407,3,15.666666666666666,5.0,41,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_1,30,30,1.0,1.0,100.0,0,0.0,1,30.0,30.0,30,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person6-1fps__seq_2,45,1,0.022222222222222223,0.022222222222222223,2.2222222222222223,1,0.022727272727272728,1,1.0,1.0,1,minor_isolated
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_0,107,2,0.018691588785046728,0.018691588785046728,1.8691588785046727,1,0.009433962264150943,1,2.0,2.0,2,minor_isolated
+PhantomLimb,PhantomLimb-Data-Extra-person6-3fps__seq_1,76,55,0.7236842105263158,0.7236842105263158,72.36842105263158,3,0.04,2,27.5,27.5,51,severe_prolonged
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_0,100,20,0.2,0.2,20.0,5,0.050505050505050504,3,6.666666666666667,8.0,10,minor_isolated
+PhantomLimb,PhantomLimb-Data-Extra-person6-5fps__seq_1,150,118,0.7866666666666666,0.7866666666666666,78.66666666666666,2,0.013422818791946308,2,59.0,59.0,117,severe_prolonged
+PhantomLimb,PhantomLimb_Data__seq_0,1300,773,0.5946153846153847,0.5946153846153847,59.46153846153847,48,0.03695150115473441,25,30.92,5.0,262,severe_prolonged
+PhantomLimb Holdout,PhantomLimb-Data-Test-person1-5fps-black__seq_0,100,89,0.89,0.89,89.0,6,0.06060606060606061,4,22.25,2.0,84,severe_prolonged
+PhantomLimb Holdout,PhantomLimb-Data-Test-person2-3fps-black__seq_0,46,46,1.0,1.0,100.0,0,0.0,1,46.0,46.0,46,severe_prolonged
+PhantomLimb Holdout,PhantomLimb-Data-Test-person2-5fps-black__seq_0,75,2,0.02666666666666667,0.02666666666666667,2.666666666666667,1,0.013513513513513514,1,2.0,2.0,2,minor_isolated
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-black__seq_0,50,50,1.0,1.0,100.0,0,0.0,1,50.0,50.0,50,severe_prolonged
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-1fps-white__seq_0,45,40,0.8888888888888888,0.8888888888888888,88.88888888888889,2,0.045454545454545456,2,20.0,20.0,20,severe_prolonged
+PhantomLimb Holdout,PhantomLimb-Data-Test-person3-5fps-white__seq_0,75,63,0.84,0.84,84.0,2,0.02702702702702703,2,31.5,31.5,62,severe_prolonged
+PianoTiles,PianoTiles_Data_p1_5fps - Sheet1__seq_0,440,386,0.8772727272727273,0.8772727272727273,87.72727272727273,14,0.03189066059225513,8,48.25,14.0,206,severe_prolonged
+Puzzle,puzzle_data_5fps_p1_02__seq_0,300,86,0.2866666666666667,0.2866666666666667,28.666666666666668,8,0.026755852842809364,5,17.2,16.0,30,minor_isolated
+Sea,gameover_sea_data_5fps_p1_01__seq_0,300,164,0.5466666666666666,0.5466666666666666,54.666666666666664,5,0.016722408026755852,3,54.666666666666664,7.0,151,severe_prolonged
+War,gameover_war_data_5fps_p1_01__seq_0,281,165,0.5871886120996441,0.5871886120996441,58.718861209964416,6,0.02142857142857143,4,41.25,31.0,87,severe_prolonged

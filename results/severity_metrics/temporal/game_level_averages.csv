@@ -1,0 +1,2 @@
+summary_level,num_rows_summarized,avg_total_rows,avg_defect_count,avg_frequency,avg_coverage,avg_coverage_pct,avg_instability,avg_instability_rate,avg_num_defect_segments,avg_mean_segment_length,avg_median_segment_length,avg_max_segment_length
+game,7,891.7142857142857,553.5714285714286,0.5675585152088384,0.5675585152088384,56.755851520883844,26.428571428571427,0.02681674864342226,20.571428571428573,32.602458256029685,15.857142857142858,121.85714285714286

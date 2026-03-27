@@ -1,0 +1,2 @@
+summary_level,num_rows_summarized,avg_total_rows,avg_defect_count,avg_frequency,avg_coverage,avg_coverage_pct,avg_instability,avg_instability_rate,avg_num_defect_segments,avg_mean_segment_length,avg_median_segment_length,avg_max_segment_length
+execution,60,104.03333333333333,64.58333333333333,0.711718555532167,0.711718555532167,71.17185555321672,3.0833333333333335,0.02639519895295143,2.4,27.3245,24.166666666666668,45.05
