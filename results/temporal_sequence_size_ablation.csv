@@ -1,0 +1,7 @@
+Id,Data Type,Architecture,Acc.,Prec.,Rec.,F1,Hold. Acc.,Hold. Pre.,Hold. Rec.,Hold. F1,Total accuracy
+k3_seq5,combined,3xtransformers,95.44%,92.53%,94.73%,93.60%,93.07%,86.62%,87.72%,86.96%,1.8851
+i1_seq5,tabular,transformer,94.17%,89.98%,93.90%,91.89%,94.16%,93.73%,83.37%,88.21%,1.8833
+i1_seq3,tabular,transformer_seq3,93.74%,90.04%,92.44%,91.21%,94.45%,94.92%,83.17%,88.60%,1.8819
+k3_seq3,combined,3xtransformers_seq3,95.81%,93.63%,94.52%,94.06%,91.77%,82.14%,87.52%,84.70%,1.8758
+i1_seq1,tabular,transformer_seq1,92.94%,88.11%,92.37%,90.17%,93.91%,91.24%,84.55%,87.74%,1.8685
+k3_seq1,combined,3xtransformers_seq3,94.67%,91.86%,93.20%,92.47%,91.97%,82.76%,88.12%,85.15%,1.8664
