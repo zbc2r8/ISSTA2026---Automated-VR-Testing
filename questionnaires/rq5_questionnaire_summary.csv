@@ -1,0 +1,31 @@
+RQ5 Questionnaire Score Summary,,,,,,,,
+All values are descriptive because this was a small formative case study. Scores use a 1–5 scale. Agree/useful >= 4 counts agree/strongly agree or very/extremely useful.,,,,,,,,
+,,,,,,,,
+Statistic/reporting unit,Closed responses,Mean,Median,SD,Agree/useful >= 4,Strongly agree/useful = 5,Neutral or lower,Paper takeaway
+All closed responses,120,4.04,4,0.83,95/120 (79.2%),37,25,"Responses were positive overall, but this remains descriptive evidence from a small case study."
+Core/current-use items,100,4,4,0.83,78/100 (78.0%),28,22,Excludes explanation/logging-improvement items; useful for reporting current tool value.
+VR users: all closed responses,52,4.46,5,0.61,49/52 (94.2%),27,3,Users rated the label as helpful during gameplay.
+VR users: core/current-use items,48,4.42,4,0.61,45/48 (93.8%),23,3,"Strongest positive signal: user-facing label clarity, noticing, recovery, and safety feedback."
+VR developers: all closed responses,68,3.72,4,0.84,46/68 (67.6%),10,22,Developers were positive but more conservative because they evaluated debugging/testing value.
+VR developers: core/current-use items,52,3.62,4,0.82,33/52 (63.5%),5,19,"Developers supported testing/review use, while asking for richer debugging context."
+VR users Q3: label helped notice issues,4,5,5,0,4/4 (100.0%),4,0,All user responses strongly agreed.
+VR users Q5: label helped recover,4,4.5,4.5,0.58,4/4 (100.0%),2,0,All user responses agreed or strongly agreed.
+VR users Q18: overall usefulness,4,4.5,4.5,0.58,4/4 (100.0%),2,0,All user responses rated the label very or extremely useful.
+Developers Q10: semi-automated review,4,4,4,0,4/4 (100.0%),0,0,All developer responses agreed.
+Developers Q11: useful for VR testing,4,4,4,0,4/4 (100.0%),0,0,All developer responses agreed.
+Developers Q8: frequency prioritization,4,2.75,3,0.5,0/4 (0.0%),0,4,Limitation: frequency alone did not support prioritization.
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+By participant group and model setting,,,,,,,,
+Participant group,Model setting,Sheets,Closed responses,Mean,SD,Median,Agree/useful >= 4,
+VR users,Per-application,2,26,4.42,0.64,4.5,24/26 (92.3%),
+VR users,Cross-application,2,26,4.5,0.58,5,25/26 (96.2%),
+VR developers,Per-application,2,34,3.65,0.92,4,22/34 (64.7%),
+VR developers,Cross-application,2,34,3.79,0.77,4,24/34 (70.6%),
+,,,,,,,,
+,,,,,,,,
+By model setting across all participants,,,,,,,,
+Model setting,Sheets,Closed responses,Mean,SD,Median,Agree/useful >= 4,,
+Per-application,4,60,3.98,0.89,4,46/60 (76.7%),,
+Cross-application,4,60,4.1,0.77,4,49/60 (81.7%),,
