@@ -1,4 +1,4 @@
-# ISSTA2026-Automated-VR-Testing
+# ISSTA2027-Automated-VR-Testing
 
 ## Description
 Based on the paper "Automated Usability Prediction in VR Applications via Spatial–Temporal Interactions”.
